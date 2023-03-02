@@ -1,7 +1,7 @@
-name: workflow_02
+name: Build and Deploy Site
 on: [repository_dispatch]
 jobs:
-  cypress-run:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Triggering Wokflow 2"
